@@ -1,13 +1,13 @@
 ## Olá 👋
 
-<!--
+
 
 
 - 🔭 Estou atualmente usando Java e Pyton
 - 🌱 I’m currently learning Pyton
-- 📫 How to reach me: andrebragans@gmail.com
+- 📫 Entre em contato: andrebragans@gmail.com
 
--->
+---------------------------------------------------
 
 <picture>
   <source

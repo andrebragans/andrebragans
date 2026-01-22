@@ -4,7 +4,7 @@
 
 
 - 🔭 Estou atualmente usando Java e Pyton
-- 🌱 I’m currently learning Pyton
+- 🌱 Atualmente aprendendo Pyton
 - 📫 Entre em contato: andrebragans@gmail.com
 
 ---------------------------------------------------

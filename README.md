@@ -3,8 +3,8 @@
 
 
 
-- 🔭 Estou atualmente usando Java e Pyton
-- 🌱 Atualmente aprendendo Pyton
+- 🔭 Estou atualmente usando Java e Python
+- 🌱 Atualmente aprendendo Python
 - 📫 Entre em contato: andrebragans@gmail.com
 
 ---------------------------------------------------

@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <a href="mailto:andrebragans@gmail.com">
+  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=andrebragans%40gmail.com">
     <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=BEFB00" alt="Email" />
   </a>
   <a href="https://github.com/andrebragans?tab=repositories">

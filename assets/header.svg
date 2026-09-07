@@ -1,0 +1,74 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090D14"/>
+      <stop offset="0.52" stop-color="#101827"/>
+      <stop offset="1" stop-color="#071315"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="250" y1="40" x2="950" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BEFB00"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glowGreen" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 80) rotate(145) scale(360 210)">
+      <stop stop-color="#BEFB00" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#BEFB00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(90 270) rotate(-30) scale(390 210)">
+      <stop stop-color="#22D3EE" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#94A3B8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="20" fill="url(#background)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#glowGreen)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#glowCyan)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="19" stroke="url(#accent)" stroke-opacity="0.42" stroke-width="2"/>
+
+  <g opacity="0.8">
+    <circle cx="48" cy="44" r="5" fill="#FF5F57"/>
+    <circle cx="68" cy="44" r="5" fill="#FFBD2E"/>
+    <circle cx="88" cy="44" r="5" fill="#28C840"/>
+    <text x="111" y="49" fill="#64748B" font-family="Consolas, monospace" font-size="14">profile.ts</text>
+  </g>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="15" opacity="0.55">
+    <text x="62" y="102" fill="#64748B">01</text>
+    <text x="98" y="102" fill="#C084FC">const</text>
+    <text x="152" y="102" fill="#E2E8F0">developer</text>
+    <text x="241" y="102" fill="#94A3B8">=</text>
+    <text x="260" y="102" fill="#BEFB00">{</text>
+    <text x="62" y="130" fill="#64748B">02</text>
+    <text x="118" y="130" fill="#22D3EE">focus:</text>
+    <text x="185" y="130" fill="#FDBA74">'build &amp; learn'</text>
+    <text x="326" y="130" fill="#94A3B8">,</text>
+    <text x="62" y="158" fill="#64748B">03</text>
+    <text x="118" y="158" fill="#22D3EE">location:</text>
+    <text x="212" y="158" fill="#FDBA74">'Salvador, BA'</text>
+    <text x="340" y="158" fill="#94A3B8">,</text>
+    <text x="62" y="186" fill="#64748B">04</text>
+    <text x="98" y="186" fill="#BEFB00">}</text>
+  </g>
+
+  <g text-anchor="end">
+    <text x="1138" y="125" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5">André Braga</text>
+    <rect x="712" y="146" width="426" height="3" rx="1.5" fill="url(#accent)" filter="url(#softGlow)"/>
+    <text x="1138" y="185" fill="#CBD5E1" font-family="Consolas, monospace" font-size="19" letter-spacing="1.5">SOFTWARE DEVELOPER</text>
+    <text x="1138" y="219" fill="#64748B" font-family="Consolas, monospace" font-size="15">BACKEND  •  AI  •  CLOUD</text>
+  </g>
+
+  <circle cx="1150" cy="260" r="3" fill="#BEFB00">
+    <animate attributeName="opacity" values="0.25;1;0.25" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1134" cy="260" r="3" fill="#22D3EE" opacity="0.55"/>
+</svg>
